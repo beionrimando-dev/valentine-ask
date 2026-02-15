@@ -13,11 +13,11 @@ const finalText = document.getElementById("final-text");
 
 envelope.addEventListener("click", () => {
     envelope.style.display ="none";
-    letter.style.dispaly ="flex";
+    letter.style.display = "flex";
 
     setTimeout( () => {
         document.querySelector(".letter-window").classList.add("open");
-    },50);
+    }, 50);
 });
 
 //Logic to move the NO btn
